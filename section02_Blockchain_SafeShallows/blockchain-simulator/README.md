@@ -16,9 +16,15 @@ Para utilizar a aplicação, siga as etapas abaixo:
 1. Clone o repositório remoto para a sua máquina local. Isso pode ser realizado através do comando:
 
 ```bash
-git clone https://github.com/seu-usuario/blockchain-simulator.git
+git clone --branch section02_Blockchain_SafeShallows https://github.com/BeatrizWG/reports-and-projects.git
+
 ```
-2. Após clonar o repositório, navegue até o diretório do projeto. 
+2. Após clonar o repositório, navegue até o diretório do projeto: 
+   
+```bash
+cd reports-and-projects/section02_Blockchain_SafeShallows/blockchain-simulator
+
+```
 
 ## Executando a aplicação
 
@@ -36,7 +42,7 @@ Esta aplicação oferece recursos para criar e gerenciar uma blockchain básica,
 
 ### Blockchain
 - **Criação da blockchain (Genesis Block)**: A função `create_blockchain()` inicializa a blockchain, criando automaticamente o primeiro bloco (gênesis), onde 100 moedas são atribuídas ao primeiro usuário, Satoshi.
-- **Exibição da blockchain**: A `função show_chain(chain)` permite visualizar todos os blocos da blockchain, incluindo os detalhes de cada transação contida em cada bloco.
+- **Exibição da blockchain**: A função `show_chain(chain)` permite visualizar todos os blocos da blockchain, incluindo os detalhes de cada transação contida em cada bloco.
 
 ### Transações
 - **Criação de transações**: Ao adicionar um novo bloco, a função `create_transaction(chain)` é chamada, solicitando os dados da transação, como remetente, destinatário, IDs das moedas e o valor a ser transferido.

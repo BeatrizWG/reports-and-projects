@@ -7,12 +7,17 @@ Este repositório contém todos os arquivos relacionados ao estágio, organizado
   - Resumo Git e GitHub
   - Resumo Métodos Ágeis
   - Resumo Segurança da Informação
+
 [x] [Section 02 - Blockchain: Safe Shallows](https://github.com/BeatrizWG/reports-and-projects/tree/section02_Blockchain_SafeShallows/section02_Blockchain_SafeShallows):
   - Resumo Blockchain
   - Projeto Blockchain
+
 [ ] Section 03 - Blockchain: Grassy Plateau
+
 [ ] Section 04 - Blockchain: Grand Reef
+
 [ ] Section 05 - Blockchain: Lost River
+
 
 
 ## Contato
